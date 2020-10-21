@@ -1,7 +1,8 @@
-<nav>
-    <button routerLink="home">Home</button>
-    <button routerLink="add">Add</button>
-    <button routerLink="update">Update</button>
-    <button routerLink="contacts">Contacts</button>
-    <button routerLink="delete">Delete</button>
+
+<nav id="navbar">
+<button class="btn" routerLink="add" routerLinkActive="active">Add</button>
+<button class="btn" routerLink="update" routerLinkActive="active">Update</button>
+<button class="btn" routerLink="contacts" routerLinkActive="active">Contacts</button>
+<button class="btn" routerLink="delete" routerLinkActive="active">Delete</button>
 </nav>
+<router-outlet></router-outlet>

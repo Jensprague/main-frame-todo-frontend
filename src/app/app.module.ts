@@ -9,6 +9,7 @@ import { UpdateComponent } from './pages/update/update.component';
 import { DeleteComponent } from './pages/delete/delete.component';
 import { NavComponent } from './nav/nav.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
     UpdateComponent,
     DeleteComponent,
     NavComponent,
-    ContactsComponent
+    ContactsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
